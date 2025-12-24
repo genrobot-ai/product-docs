@@ -68,9 +68,9 @@ For assistance: support@genrobot.ai.
 The DAS Controller is a homogeneous controller for the DAS Gripper. After users collect data and train models with the DAS Gripper, they can deploy these models using the DAS Controller.  
 **Package List**  
 	* DAS Controller × 1  
-	* Replaceable Gripper Heads ×3
-	* Type-C Data Cable × 1
-	* Power Cable × 1
+	* Replaceable Gripper Heads ×3  
+	* Type-C Data Cable × 1  
+	* Power Cable × 1  
 	* L-shaped Hex Key × 1   
 	* M3 M3 Bolts
 
