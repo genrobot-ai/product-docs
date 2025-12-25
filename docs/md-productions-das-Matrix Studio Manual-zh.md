@@ -51,7 +51,7 @@ sudo update-ca-certificates
 我们在 Docker hub 上发布镜像，您可以通过以下命令下载：
 
 ```bash
-docker pull genrobot/matrix-studio:0.2.5 #latest version
+docker pull genrobot/matrix-studio:0.2.6 #latest version
 ```
 
 ### 3.2 获取启动脚本
@@ -138,15 +138,15 @@ sudo rm -rf .meta
 
 ### 4.2 主界面
 
-![Main Dashboard](https://cdn.shopify.com/s/files/1/0777/8874/1847/files/Home_board.jpg?v=1763611603)
+![Main Dashboard](https://cdn.shopify.com/s/files/1/0777/8874/1847/files/studio_main_page2.jpg?v=1766652771)  
 **核心功能模块:**  
-• **Data Viz 可视化 ​** - 数据解析及可视化  
+• **Data Importer 可视化 ​** - 数据解析及可视化  
 • **传感器标定** - 多源传感器参数校准  
 • **真值生产** - 高质量标注和数据集生成
 
 ### 4.3 数据页面
 
-数据页面是数据处理的主要界面，提供以下功能：
+数据页面是数据处理的主要界面，提供以下功能：  
 **1. 显示本地数据目录中的所有 MCAP 数据，包括:**  
  • Token: 每个数据集的唯一标识符.  
  • FileName: 显示 MCAP 数据文件名。点击文件名可在 Monitor 中打开以进行数据可视化.  
@@ -186,8 +186,9 @@ sudo rm -rf .meta
 ### 4.5 数据可视化功能
 
 #### 4.5.1 主仪表板
+![Importer Bag](https://cdn.shopify.com/s/files/1/0777/8874/1847/files/studio_main_page.jpg?v=1766643934)  
 
-![Upload Bag](https://cdn.shopify.com/s/files/1/0777/8874/1847/files/upload_mcap.jpg?v=1763611603)
+![Upload Bag](https://cdn.shopify.com/s/files/1/0777/8874/1847/files/studio_importer_page.jpg?v=1766643908)  
 **功能:**  
 • **打开本地文件** - 打开并将本地数据文件加载到系统中.  
 • **Monitor** - 点击监控按钮以可视化传感器数据.  
