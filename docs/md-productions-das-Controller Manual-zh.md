@@ -1,4 +1,5 @@
 # DAS Controller 用户手册
+简体中文 | [English](./md-productions-das-Controller%20Manual-en.md)
 # 1. 重要安全信息
 
 ## 1.1 安全说明
