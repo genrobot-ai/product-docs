@@ -52,7 +52,7 @@ sudo update-ca-certificates
 We publish
 
 ```bash
-docker pull genrobot/matrix-studio:0.2.5 #latest version
+docker pull genrobot/matrix-studio:0.2.6 #latest version
 ```
 
 ### 3.2 Get start scripts
@@ -130,7 +130,7 @@ When you open the URL in your computer browser, you will need to enter a usernam
 
 ### 4.2 Main Dashboard
 
-![Main Dashboard](https://cdn.shopify.com/s/files/1/0777/8874/1847/files/Home_board.jpg?v=1763611603)
+![Main Dashboard](https://cdn.shopify.com/s/files/1/0777/8874/1847/files/studio_main_page2.jpg?v=1766652771)  
 **Core Functional Modules:**  
 • **Data Viz Visualization** - Data exploration and interactive chart analysis  
 • **Sensor Calibration** - Multi-source sensor parameter calibration
@@ -180,7 +180,9 @@ Click on the TruthValue to open the Monitor for data visualization.
 
 #### 4.5.1 Main Dashboard
 
-![Upload Bag](https://cdn.shopify.com/s/files/1/0777/8874/1847/files/upload_mcap.jpg?v=1763611603)
+![Importer Bag](https://cdn.shopify.com/s/files/1/0777/8874/1847/files/studio_main_page.jpg?v=1766643934)  
+
+![Upload Bag](https://cdn.shopify.com/s/files/1/0777/8874/1847/files/studio_importer_page.jpg?v=1766643908)  
 **Functional:**  
 • **Open Local Files** - Open and load local data files into the system.  
 • **Monitor** - Click monitor buttion to visualize sensor data.  
