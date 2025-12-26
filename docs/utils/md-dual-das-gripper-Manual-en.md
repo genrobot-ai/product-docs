@@ -1,3 +1,5 @@
+[简体中文](./md-dual-das-gripper-Manual-zh.md) | English
+
 # Data Collection Guide for Dual Hands V1.0
 
 ## Notes
