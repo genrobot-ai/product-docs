@@ -1,4 +1,7 @@
 # DAS Controller Manual
+
+[简体中文](./md-productions-das-Controller%20Manual-en.md) | English  
+
 # 1. Important Safety Information
 
 ## 1.1 Safety Instructions

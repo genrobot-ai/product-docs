@@ -1,3 +1,5 @@
+[简体中文](./md-productions-das-Controller%20Manual-en.md) | English 
+
 # User Upgrade Introduction
 DAS-Gripper supports upgrading its edge-side software, which is divided into two parts: upgrading the APP and upgrading the underlying software 
  
