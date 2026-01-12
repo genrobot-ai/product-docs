@@ -6,8 +6,8 @@
 
 **(1) During pairing, ensure the USB connection is secure. Use straps to minimize tension on the USB ports during collection. If the pairing indicator on the recording interface flickers or disappears, it indicates an unstable USB connection (refer to the fixation solution provided by Genrobot)**
 
-**(2) After successful pairing, use the record button on the left-hand device to initiate recording operations.**
-
+**(2) After successful pairing, use the record button on the left-hand device to initiate recording operations.**  
+**(3) During the actual data collection, please ensure that both devices are facing the same spot when starting the collection. Wait for 1 second in a stationary state before beginning the collection.**
 ---
 
 ## 1. How to Pair on the Interface
@@ -41,4 +41,5 @@ Client: host_eb208e5ece7fb883_device_445aa23a732f5815_20251226231342.mcap
 
 ---
 
-## 3. How to Process Dual-Hand Data Using Studio (To Be Updated)
+## 3. How to Process Dual-Hand Data Using Studio
+Update in https://github.com/genrobot-ai/product-docs/blob/main/docs/md-productions-das-Matrix%20Studio%20Manual-en.md
