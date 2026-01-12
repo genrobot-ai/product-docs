@@ -184,10 +184,10 @@ sudo rm -rf .meta
 ![Vio Task1](https://cdn.shopify.com/s/files/1/0777/8874/1847/files/vio_task1.jpg?v=1763611603)
 • 输入处理任务的名称.  
 • (Optional) 选择是否使用 URDF 求解器 (开发中的功能)).  
-• 选择设备类型（默认das gripper）
-• 选择版本类型（可询问售后人员确认Das版本类型）
-• 选择任务类型：single(单手) dual(双手)
-• 点击 OK 开始真值数据处理.
+• 选择设备类型（默认das gripper）  
+• 选择版本类型（可询问售后人员确认Das版本类型）  
+• 选择任务类型：single(单手) dual(双手)  
+• 点击 OK 开始真值数据处理.  
 ![Vio Task2](https://cdn.shopify.com/s/files/1/0777/8874/1847/files/vio_process.jpg?v=1768225144)
 **3. 真值数据处理 ​**  
 • 您可以通过 VioState 列监控进度，或在真值详情页面查看详细状态.
