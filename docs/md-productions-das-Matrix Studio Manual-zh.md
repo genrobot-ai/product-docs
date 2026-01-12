@@ -55,9 +55,14 @@ docker pull genrobot/matrix-studio:0.2.6 #latest version
 ```
 
 ### 3.2 获取启动脚本
-
+脚本1： studio 启动脚本
 ```bash
 wget https://huggingface.co/datasets/genrobot2025/studio/resolve/main/start_studio.sh
+
+```
+脚本2： 真值处理sdk启动脚本
+```bash
+wget https://huggingface.co/datasets/genrobot2025/studio/resolve/main/start_studio_sdk.sh
 
 ```
 
@@ -113,6 +118,26 @@ https://[host_ip]:5501
 3. 此模式允许同一局域网内的其他计算机访问该平台。
 4. 局域网内的任何计算机都可以使用指定的 IP 地址进行连接。
 
+##### Method 3: 方法 3: 使用docker 内的真值算法
+1. 进入容器：
+```bash
+bash start_studio_sdk.sh --image-name [docker_image]:[tag] 
+```
+
+该脚本将挂载data 路径下的文件到镜像的 /app/data路径下  
+
+2. 运行vio处理脚本  
+```bash
+bash /app/scripts/process_mcap_inner.sh [input_mcap_path] --output-dir [output_dir] --device [version] -loop-closure-iterations 1
+```
+示例：  
+```bash
+bash /app/scripts/process_mcap_inner.sh /app/data/test.mcap --output-dir /app/data/output --device v2 -loop-closure-iterations 1
+```
+• --output-dir为可选参数，默认存到/app/data/output 路径下，保存对应转换后的结果及json文件  
+• --device 为可选参数，默认v2  
+• 结果分为处理后的mcap以及对应json文件，用户可通过json判断vio是否成功
+
 ##### 如果您想关闭 Studio:
 
 ```bash
@@ -159,16 +184,21 @@ sudo rm -rf .meta
 ![Vio Task1](https://cdn.shopify.com/s/files/1/0777/8874/1847/files/vio_task1.jpg?v=1763611603)
 • 输入处理任务的名称.  
 • (Optional) 选择是否使用 URDF 求解器 (开发中的功能)).  
+• 选择设备类型（默认das gripper）
+• 选择版本类型（可询问售后人员确认Das版本类型）
+• 选择任务类型：single(单手) dual(双手)
 • 点击 OK 开始真值数据处理.
-![Vio Task2](https://cdn.shopify.com/s/files/1/0777/8874/1847/files/create_vio_task.jpg?v=1763611603)
+![Vio Task2](https://cdn.shopify.com/s/files/1/0777/8874/1847/files/vio_process.jpg?v=1768225144)
 **3. 真值数据处理 ​**  
 • 您可以通过 VioState 列监控进度，或在真值详情页面查看详细状态.
 • 更多详细功能将通过 OTA 更新推出.
+
 
 **4. 查看和处理数据:**  
 • 从真值详情页面打开特定的数据可视化.  
 • 处理后的数据保存在 ​data/output/[task_name]​​ 目录中.
 ![Task folder](https://cdn.shopify.com/s/files/1/0777/8874/1847/files/task_folder.jpg?v=1763611603)
+• 双手任务处理后的数据保存在 ​data/output/[task_name]​​ 目录中，以.merge.mcap 结尾
 • 文件 ​vio_result.json​ 包含成功处理数据的路径.  
 ![Result](https://cdn.shopify.com/s/files/1/0777/8874/1847/files/result.jpg?v=1763611603)
 
