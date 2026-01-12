@@ -56,11 +56,17 @@ docker pull genrobot/matrix-studio:0.2.6 #latest version
 ```
 
 ### 3.2 Get start scripts
-
+Script 1： studio start script 
 ```bash
 wget https://huggingface.co/datasets/genrobot2025/studio/resolve/main/start_studio.sh
 
 ```
+
+Script 2： groundtruth sdk
+```bash
+wget https://huggingface.co/datasets/genrobot2025/studio/resolve/main/start_studio_sdk.sh
+
+```  
 
 ### 3.3 Launch Studio
 
@@ -112,7 +118,26 @@ https://[host_ip]:5501
 ```
 
 3. This mode allows other computers on the same network to access the platform
-4. Any computer on the network can connect using the specified IP address
+4. Any computer on the network can connect using the specified IP address  
+
+Method 3:  usd groundtruth algorithm in docker  
+1. enter docker：  
+```bash
+bash start_studio_sdk.sh --image-name [docker_image]:[tag] 
+```
+
+2. process groundtruth algorithm
+```bash
+bash /app/scripts/process_mcap_inner.sh [input_mcap_path] --output-dir [output_dir] --device [version] -loop-closure-iterations 1
+```
+
+example：
+```bash
+bash /app/scripts/process_mcap_inner.sh /app/data/test.mcap --output-dir /app/data/output --device v2 -loop-closure-iterations 1
+```  
+• --output-dir is an optional parameter. By default, the data is saved in the /app/data/output directory, which stores the converted results and the corresponding JSON file.   
+• --device is an optional parameter, with the default value being v2.  
+• --The results consist of the processed mcap file and the corresponding JSON file. Users can check the JSON file to determine whether the VIO process was successful. 
 
 ##### If you want to close studio:
 
@@ -149,10 +174,13 @@ The Data Page is the main interface for data processing, offering the following 
 • Select one or multiple datasets.  
 • Click the "Batch Generate Trajectory" button.
 ![Vio Task1](https://cdn.shopify.com/s/files/1/0777/8874/1847/files/vio_task1.jpg?v=1763611603)
-• Enter a name for the processing task.  
-• (Optional) Choose whether to use the URDF Solver (Feature under development).  
-• Click OK to start the ground truth processing.
-![Vio Task2](https://cdn.shopify.com/s/files/1/0777/8874/1847/files/create_vio_task.jpg?v=1763611603)
+• 输入处理任务的名称.  
+• (Optional) 选择是否使用 URDF 求解器 (开发中的功能)).  
+• 选择设备类型（默认das gripper）  
+• 选择版本类型（可询问售后人员确认Das版本类型）  
+• 选择任务类型：single(单手) dual(双手)   
+• 点击 OK 开始真值数据处理.  
+![Vio Task2](https://cdn.shopify.com/s/files/1/0777/8874/1847/files/vio_process.jpg?v=1768225144)  
 **3. GroundTruth Processing**  
 • You can monitor the progress via the ​VioState​ column or check the detailed status on the ​GroundTruth Details Page.
 • More detailed features will be rolled out via ​OTA updates.
