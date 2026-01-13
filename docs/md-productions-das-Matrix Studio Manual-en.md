@@ -52,7 +52,7 @@ sudo update-ca-certificates
 We publish
 
 ```bash
-docker pull genrobot/matrix-studio:0.2.7 #latest version
+docker pull genrobot/matrix-studio:0.2.8 #latest version
 ```
 
 ### 3.2 Get start scripts
