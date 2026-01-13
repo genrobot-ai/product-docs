@@ -174,12 +174,12 @@ The Data Page is the main interface for data processing, offering the following 
 • Select one or multiple datasets.  
 • Click the "Batch Generate Trajectory" button.
 ![Vio Task1](https://cdn.shopify.com/s/files/1/0777/8874/1847/files/vio_task1.jpg?v=1763611603)
-• 输入处理任务的名称.  
-• (Optional) 选择是否使用 URDF 求解器 (开发中的功能)).  
-• 选择设备类型（默认das gripper）  
-• 选择版本类型（可询问售后人员确认Das版本类型）  
-• 选择任务类型：single(单手) dual(双手)   
-• 点击 OK 开始真值数据处理.  
+• Enter the name of the input processing task.   
+• (Optional) Select whether to use the URDF solver (feature in development).  
+• Select the device type (default: das gripper).  
+• Select the version type (confirm the Das version type with after-sales personnel if needed).  
+• Select the task type: single (single-arm) or dual (dual-arm).  
+• Click OK to start ground truth data processing.  
 ![Vio Task2](https://cdn.shopify.com/s/files/1/0777/8874/1847/files/vio_process.jpg?v=1768225144)  
 **3. GroundTruth Processing**  
 • You can monitor the progress via the ​VioState​ column or check the detailed status on the ​GroundTruth Details Page.
