@@ -130,9 +130,13 @@ bash start_studio_sdk.sh --image-name [docker_image]:[tag]
 ```bash
 bash /app/scripts/process_mcap_inner.sh [input_mcap_path] --output-dir [output_dir] --device [version] -loop-closure-iterations 1
 ```
-示例：  
+单手任务示例：  
 ```bash
 bash /app/scripts/process_mcap_inner.sh /app/data/test.mcap --output-dir /app/data/output --device v2 -loop-closure-iterations 1
+```
+双手任务示例：  
+```bash
+bash /app/scripts/process_mcap_inner.sh /app/data/left_gripper.mcap /app/data/right_gripper.mcap --output-dir /app/data/output --device v2 -loop-closure-iterations 1
 ```
 • --output-dir为可选参数，默认存到/app/data/output 路径下，保存对应转换后的结果及json文件  
 • --device 为可选参数，默认v2  
