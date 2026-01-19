@@ -265,9 +265,9 @@ Main topic intruction:
 The system adheres to the ​right-hand rule​ convention for all coordinate frames.  
 Frame Definition:​​  
 ​• Origin: Optical center of the middle camera (camera0).  
-​• X-axis (Red)​: Points along the camera's optical axis, i.e., ​forward.  
-​• Y-axis (Green)​: Perpendicular to the X-axis, pointing to the ​left.  
-​• Z-axis (Blue)​: Perpendicular to the X-Y plane, pointing ​upward​ (as determined by the right-hand rule).
+​• Z-axis (blue): Defined as the anti-gravity direction.    
+​• X-axis (red): The direction of the camera's optical axis projected onto the horizontal plane (i.e., the plane orthogonal to the Z-axis).  
+​• Y-axis (green): Orthogonal to both the X and Z axes, uniquely determined by the right-hand rule, pointing to the left.
 
 ![axis](https://cdn.shopify.com/s/files/1/0777/8874/1847/files/data_axis.jpg?v=1763905297)
 
