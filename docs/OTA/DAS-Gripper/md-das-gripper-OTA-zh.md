@@ -1,8 +1,8 @@
 简体中文 | [English](./md-das-gripper-OTA-en.md)  
 
 # 用户升级介绍
-DAS-Gripper 支持升级端侧软件，分为升级APP和升级底层软件两部分。 
- 
+DAS-Gripper 支持升级端侧软件，分为升级APP和升级底层软件两部分。  
+版本升级文档：[Version update documentation](https://zcnma1sv5kma.feishu.cn/wiki/CKpbwye45iOlrckukIPc5hKCndh "查看固件版本更新文档")
 **APP升级**  
 APP 升级将升级应用层代码  
 
