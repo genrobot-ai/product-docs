@@ -80,8 +80,12 @@ Das controller 是Das gripper 的同构控制器，用户通过Das gripper采集
 	*  再将DAS Controller与法兰安装（需要三颗M3螺钉固定）  
 	
 ![gripper](https://cdn.shopify.com/s/files/1/0777/8874/1847/files/image_3287f03f-1448-44fe-aeff-f7f9c9e62b11.png?v=1766563875)
-具体参数
+具体参数  
+Controller V1  
 ![gripper](https://cdn.shopify.com/s/files/1/0777/8874/1847/files/controller_cad.png?v=1766563863)
+
+Controller V2  
+!controller v2](https://cdn.shopify.com/s/files/1/0777/8874/1847/files/20260130-201727.jpg?v=1769775516)
 
 ### 2.1.2 电气连接
 使用XT30系列母头插入DAS Controller的XT30 2+2接口并通24V电源，供电接口类型为XT30(PB)
