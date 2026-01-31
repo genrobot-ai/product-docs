@@ -91,9 +91,12 @@ The DAS Controller is a homogeneous controller for the DAS Gripper. After users 
 	
 ![gripper](https://cdn.shopify.com/s/files/1/0777/8874/1847/files/image_3287f03f-1448-44fe-aeff-f7f9c9e62b11.png?v=1766563875)
 
-Parameters
-
+Parameters  
+Controller V1  
 ![gripper](https://cdn.shopify.com/s/files/1/0777/8874/1847/files/controller_cad.png?v=1766563863)
+
+Controller V2  
+![controller v2](https://cdn.shopify.com/s/files/1/0777/8874/1847/files/20260130-201727.jpg?v=1769775516)
 
 ### 2.1.2 Electrical Connection
 Use an XT30 series female connector to insert into the XT30 2+2 interface of the DAS Controller and connect to a 24V power supply. The power supply interface type is XT30 (PB).  
