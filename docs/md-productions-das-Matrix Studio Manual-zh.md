@@ -51,7 +51,7 @@ sudo update-ca-certificates
 我们在 Docker hub 上发布镜像，您可以通过以下命令下载：
 
 ```bash
-docker pull genrobot/matrix-studio:0.2.9 #latest version
+docker pull genrobot/matrix-studio:0.2.10 #latest version
 ```
 
 ### 3.2 获取启动脚本
