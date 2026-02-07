@@ -54,6 +54,13 @@ sudo update-ca-certificates
 docker pull genrobot/matrix-studio:0.2.10 #latest version
 ```
 
+在中国，您可以通过国内云拉取：
+
+```bash
+docker pull imagepublic.genrobotai.com/genrobot/matrix-studio:0.2.10 #latest version
+```
+
+
 ### 3.2 获取启动脚本
 脚本1： studio 启动脚本
 ```bash
