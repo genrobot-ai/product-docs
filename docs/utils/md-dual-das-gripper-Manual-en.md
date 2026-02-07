@@ -43,3 +43,10 @@ Client: host_eb208e5ece7fb883_device_445aa23a732f5815_20251226231342.mcap
 
 ## 3. How to Process Dual-Hand Data Using Studio
 Update in https://github.com/genrobot-ai/product-docs/blob/main/docs/md-productions-das-Matrix%20Studio%20Manual-en.md
+
+## 4. Precautions for two-hand collection
+1. Remain stationary for at least 3 seconds before collection.   
+2. At the start and end of data collection, the left cameras of the two grippers should look at the same position as much as possible, with a larger overlapping range being better. When the commonly viewed object is in the distance, it is easier to fuse the coordinate systems of the two grippers.  
+3. Excessive duration of a single packet will affect data processing speed, so the recording duration of each task should be controlled within 15-60 seconds as much as possible  
+4. Avoid long-term occlusion of the field of view by the desktop/dynamic objects during the collection process   
+5. The left camera field of view of the two devices should have as much texture as possible, and there should be other static objects besides the object to be grasped 
