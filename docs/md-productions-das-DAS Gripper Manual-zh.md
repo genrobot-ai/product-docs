@@ -114,6 +114,8 @@
 
 ![](https://cdn.shopify.com/s/files/1/0777/8874/1847/files/MK_2_renders.82.jpg?v=1762741580)
 
+**版本更新记录**  
+[Version update documentation](https://zcnma1sv5kma.feishu.cn/wiki/CKpbwye45iOlrckukIPc5hKCndh "查看固件版本更新文档")
 ## 2.2 核心特性
 
 - **便携易用**: 轻量化设计提供卓越的操控性，达到媲美人工的操作效率.
