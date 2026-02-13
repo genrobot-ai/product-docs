@@ -284,7 +284,16 @@ T 系统在所有坐标系中遵循右手定则.
 ​• X 轴 (红色)​​: 为摄像机光轴在水平平面（即与 Z 轴正交的平面）上的投影方向.  
 ​• Y 轴 (绿色)​: 与 X、Z 轴正交，由右手定则唯一确定，指向左侧.  
 
+DAS-Gripper V2 示意图：  
+
 ![axis](https://cdn.shopify.com/s/files/1/0777/8874/1847/files/data_axis.jpg?v=1763905297)
+
+DAS-Gripper V3 / V4 示意图：  
+World frame:  
+![world_axis](https://cdn.shopify.com/s/files/1/0777/8874/1847/files/world_frame.jpg?v=1770950718)
+
+Local frame: 
+![local_axis](https://cdn.shopify.com/s/files/1/0777/8874/1847/files/local_frame.jpg?v=1770950732)
 
 **4. Data Convert SDK**  
 此工具包允许您将原生 MCAP 数据无缝转换为其他流行的研究和开发格式.
