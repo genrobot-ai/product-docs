@@ -6,8 +6,10 @@
 
 **(1) During pairing, ensure the USB connection is secure. Use straps to minimize tension on the USB ports during collection. If the pairing indicator on the recording interface flickers or disappears, it indicates an unstable USB connection (refer to the fixation solution provided by Genrobot)**
 
-**(2) After successful pairing, use the record button on the left-hand device to initiate recording operations.**  
+**(2) After successful pairing, use the record button on the left-hand device to initiate recording operations.** 
+
 **(3) During the actual data collection, please ensure that both devices are facing the same spot when starting the collection. Wait for 1 second in a stationary state before beginning the collection.**
+
 ---
 
 ## 1. How to Pair on the Interface
