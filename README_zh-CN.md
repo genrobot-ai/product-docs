@@ -67,6 +67,16 @@ Matrix Studio 平台使用指南，包含：
 - 🔄 数据转换工具包
 - 🛠️ 常见问题解决方案
 
+### [OTA 手册](./docs/OTA/DAS-Gripper/md-das-gripper-OTA-zh.md)
+OTA 手册，包含产品的OTA教程
+
+### [版本更新记录](https://zcnma1sv5kma.feishu.cn/wiki/CKpbwye45iOlrckukIPc5hKCndh)
+记录了硬件和软件版本更新记录，包含：
+
+- DAS-Gripper 硬件更新记录
+- DAS-Gripper 软件更新记录
+- DAS-Gripper Matrix studio 后处理工具更新记录
+
 ## 🛠️ 技术规格概览
 
 | 参数             | DAS Gripper           | Matrix Studio     |
