@@ -10,9 +10,9 @@ he underlying software upgrade will optimize drivers, alignment functions, and m
 
 # User Upgrade Process
 
-Strictly follow the process: upgrade the APP first, then upgrade the underlying firmware.
+1. Generally, follow the process of upgrading the APP first and then the underlying software. If the individual upgrade time does not exceed 5 minutes, please contact after-sales support promptly. If there is a long loading time without an update, you can try upgrading the underlying software using an SD card first and then updating APP.
 
-Ensure that the device has sufficient battery power throughout the upgrade process (around 50%).
+2. Ensure that the device has sufficient battery power throughout the upgrade process (around 50%).
 
 ---
 
