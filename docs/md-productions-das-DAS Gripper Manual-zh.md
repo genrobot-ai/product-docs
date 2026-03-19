@@ -115,6 +115,7 @@
 ![](https://cdn.shopify.com/s/files/1/0777/8874/1847/files/MK_2_renders.82.jpg?v=1762741580)
 
 **版本更新记录**  
+用户名可通过以下文档获取版本信息：
 [Version update documentation](https://zcnma1sv5kma.feishu.cn/wiki/CKpbwye45iOlrckukIPc5hKCndh "查看固件版本更新文档")
 ## 2.2 核心特性
 
@@ -215,6 +216,9 @@
 | **触觉传感器分辨率 ​**   |                                      1x1mm                                      |
 | **触觉输出频率 ​**       |                                      20Hz                                       |
 
+#### 3.2.1 触觉模组接受   
+[触觉模组介绍](https://zcnma1sv5kma.feishu.cn/wiki/EYWqwVFXoiFAvhkssCJce5xRn7c)  
+
 ## 4. 数据采集快速入门指南
 
 ### 步骤 1：开箱检查
@@ -228,15 +232,20 @@
 4. 第一次使用 SD 卡时，需要格式化 SD 卡：下拉屏幕 - 点开设置 - 找到 Format Micro SD Card - 点击 Confirm，系统将格式化该 SD 卡。格式化一次后，后续可正常使用，若需要清空数据，也可使用格式化功能
 
 ### 步骤 2：开始采集
-
+**单手采集方式**  
 1. 点击录制按钮开始数据采集
 2. 屏幕上出现录制计时
 3. 保持设备静止两秒后，执行您想要采集的任务动作，按下触发器控制夹爪
 4. 再次点击录制按钮停止数据采集
 5. 录制计时消失，数据自动保存到 MicroSD 卡
+   
+**双手采集方式**  
+对于V2、V3设备，使用USB有线通信：[DAS-Gripper V2/V3 双手操作教程](./utils/md-dual-das-gripper-Manual-zh.md)    
+对于V4 设备，使用无线通讯：[DAS-Gripper V4 双手操作教程](./utils/md-dual_das-gripper-Manual-v2-zh.md)    
 
-**注意事项**
+用户手中的版本可在版本信息查询匹配，或直接询问销售
 
+**注意事项**  
 1. 采集时倾斜角度不要太大，尽量水平，朝着有一定纹理的区域开始采集
 2. 点击录制按钮停止采集时，点击按钮最慢 2s 内数据保存完毕，请耐心等待
 
