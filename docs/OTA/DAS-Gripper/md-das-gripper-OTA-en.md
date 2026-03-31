@@ -1,6 +1,8 @@
 [简体中文](./md-das-gripper-OTA-zh.md) | English  
 # User Upgrade Introduction
-DAS-Gripper supports upgrading its edge-side software, which is divided into two parts: upgrading the APP and upgrading the underlying software 
+DAS-Gripper supports upgrading its edge-side software, which is divided into two parts: upgrading the APP and upgrading the underlying software  
+
+[Version update documentation](https://zcnma1sv5kma.feishu.cn/wiki/CKpbwye45iOlrckukIPc5hKCndh "查看固件版本更新文档")
  
 **APP Upgrade**  
 The APP upgrade will update the application-layer code.
