@@ -2,6 +2,8 @@
 
 [简体中文](./README_zh-CN.md) | English
 
+Move to https://docs.genrobot.ai/.
+
 Welcome to GENROBOT.AI Product Documentation! This repository contains comprehensive user manuals for our intelligent data acquisition system products.
 
 ## 📖 About Us
